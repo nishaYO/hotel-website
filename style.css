@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* header starts here */
+.header {
+  background: #000000;
+  display: block;
+  padding: 20px;
+}
+
+.logo {
+  align-content: center;
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+}
+
+.nav {
+  max-width: 90%;
+  border: 2px solid #ffffff;
+  display: block;
+  margin: 0 auto 5px auto;
+}
+
+.nav div {
+  display: table;
+  padding: 10px;
+  margin: 0px auto;
+}
+
+.nav div ul li {
+  display: inline-block;
+}
+
+.nav div ul li {
+  font-size: 1.8vmax;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #fff;
+  line-height: 50px;
+}
+.nav div ul li:hover {
+  color: #ec3c6a;
+}
+/* header ends here */
+
+/* content section starts here */
+
+/* location section starts here */
+.contact {
+  background-color: #ec3c6a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 60vh;
+}
+
+.box {
+  background-color: #353535;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 470px;
+  height: 410px;
+  margin: auto;
+}
+
+.location-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  /* margin: 10px; */
+}
+
+.here {
+  color: rgb(255, 255, 255);
+  font-weight: 500px;
+  font-size: 30px;
+  padding: 4px;
+}
+
+#map {
+  padding: 10px;
+  margin: 10px 25px;
+}
+
+/* location section ends here */
+
+/* form starts here*/
+
+form {
+  background-color: #353535;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  height: 410px;
+  width: 600px;
+  border-radius: 10px;
+}
+
+form h3 {
+  padding: 20px;
+  font-weight: 500px;
+  font-size: 35px;
+}
+
+form input,
+form textarea {
+  margin: 5px 10px;
+  width: 530px;
+  padding: 5px;
+  border-radius: 2px;
+  background-color: rgba(240, 248, 255, 0.886);
+}
+
+form button {
+  width: 120px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: rgb(219, 64, 118);
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 10px;
+}
+
+/* form ends here */
+/* contacts ends here */
+
+/* footer starts here */
+
+.footer {
+  background: #211f17;
+  display: block;
+  padding: 20px;
+  position: relative;
+}
+
+.about-us {
+  display: inline-table;
+  max-width: 30%;
+  width: 30%;
+  margin: 2% 0 2% 4%;
+}
+
+.address {
+  display: inline-table;
+  max-width: 30%;
+  width: 30%;
+  margin: 2% 0 2% 25%;
+}
+
+.about-us .bold,
+.address .bold {
+  color: #ec3c6a;
+  font-size: 1.5vw;
+  font-weight: 700;
+  padding-bottom: 4%;
+}
+
+.about-us p,
+.address p {
+  color: #fff;
+  font-size: 1.2vw;
+}
+/* footer ends here */
